@@ -28,15 +28,14 @@ export default class App extends Component {
             <Header />
             {global.HermesInternal == null ? null : (
               <View style={styles.engine}>
-                <Text style={styles.footer}>Engine: Hermes</Text>
+                <Text style={styles.footer}>Moto: Hermes e Renato</Text>
               </View>
             )}
             <View style={styles.body}>
               <View style={styles.sectionContainer}>
-                <Text style={styles.sectionTitle}>Step One</Text>
+                <Text style={styles.sectionTitle}>Passo Um</Text>
                 <Text style={styles.sectionDescription}>
-                  Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
+                  Edite <Text style={styles.highlight}>App.js</Text> pra mudar esta tela e então volte para ver suas edições.
               </Text>
               </View>
               <View style={styles.sectionContainer}>
