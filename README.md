@@ -1,6 +1,14 @@
 # react-native-tasks-offline
 Desenvolvimento do App tasks(offline)
 
+(no diretório raiz) react-native init "Nome-App"(=Nome-diretório a ser criado)
+
+(no diretório raiz) emulator -list-avds
+(no diretório raiz) emulator -no-snapshot -avd "Nome-Emulador"
+
+(no diretório criado) react-native run-android
+
+
 Criando nova branch para a aplicação react-native
 
 - Baixar os arquivos da branch selecionada(Master, provavelmente);
